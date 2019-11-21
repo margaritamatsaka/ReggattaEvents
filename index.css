@@ -1,0 +1,295 @@
+*{
+	margin:0;
+	padding:0;
+	font-size: 100%;
+}
+.main_events a{
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(140, 140, 140);
+	padding: 5px;
+	}
+.main_news {
+	display: block;
+}
+.main_events a:hover{
+	color: rgb(240, 240, 240);
+	background-color: rgb(252, 164, 70);
+	
+}
+.main_news a{
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(140, 140, 140);
+	padding-bottom: 5px;
+	font-size: 1rem;
+}
+.main_news a:hover{
+	border-bottom: 1.5px solid rgb(252, 164, 70);
+	
+}
+li{
+	list-style: none;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.regatta_day{
+    position: relative;
+    margin-left: 26px;
+	margin-top: -125px;
+	
+}
+p.the_day{
+	font-family: 'Oranienbaum', serif;
+	font-size: 4.4375rem;
+	color: rgb(255, 255, 255);
+	font-size: 71/16rem;
+}
+p.the_month{
+	text-transform: uppercase;
+	font-size: 0.875rem;
+	color: rgb(229, 165, 97);
+	font-weight: bold;
+	font-size: 14/16rem;
+
+}
+.about_header H2{
+	font-family: 'Oranienbaum', serif;
+	font-size: 1.875rem;
+	color: rgb(35, 54, 79);
+	font-weight: normal;
+	text-transform: capitalize;
+	line-height: 1.35;
+    height: 150px;
+	padding-right:43px;
+	padding-left: 40px; 
+	padding-top: 50px;
+}
+.wrapper{
+	display: flex;
+	flex-flow: row wrap;
+	position: relative;
+	justify-content: space-between;
+	align-content: space-between;
+	height: 2600px;/*высчитать высоту*/
+    margin: 130px auto 40px auto;
+    width: 85.6%;
+}
+.main_menu{
+	position: relative;
+	border: 0.5px solid rgb(255, 255, 255);
+    width: 100%;
+    flex-basis: 507px;
+	/*margin: 0 0 70px 0;*/
+}
+.main_regattas{
+	position: relative;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+    border: 0.5px solid rgb(220, 220, 220);
+    flex-basis: 507px;
+}
+.main_events li{
+	text-transform: uppercase;
+	color: rgb(255, 255, 255);
+	font-size: 1rem;
+	font-weight: bold;
+	margin: 18px 0;
+}
+.main_social{
+	color: rgb(35, 54, 79);
+    font-size: 1.2rem;
+    margin-top: 110px;
+}
+.main_social p{
+	display: block;
+}
+ul.social_icons{
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+ul.social_icons li{
+	display: inline-block;
+	margin-right: 5px; 
+}
+.main_events H1{
+	font-family: 'Oranienbaum', serif;
+	font-size: 3.5rem;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+.main_events{
+	display: block;
+	position: relative;
+	color: rgb(113, 129, 149);  
+    cursor: pointer;	
+    height: 310px;
+}
+.about_text{
+	color: rgb(35, 54, 79);
+	font-size: 1rem;
+	line-height: 1.9;
+    padding-left: 40px;
+    padding-right: 43px;
+    height: 290px;
+}
+.regatta{
+	position: relative;
+	height: 310px;
+}
+.regatta img{
+	width: 100%;
+	height: 100%;
+}
+/*футер!!! либо убрать все лишнее здесь либо менять всю адаптивность  местами и основываться на полноэкранной версии!!!!!!!! */
+.contact_form{
+	background-color: rgb(52, 75, 105);
+    height: 500px;
+    border-bottom: 2px solid rgb(252, 164, 70);
+    padding: 60px 137px 0 137px;
+}
+H2.contact_manager{
+    font-family: 'Oranienbaum', serif;
+    font-size: 1.875rem;
+	color: rgb(255, 255, 255);
+	font-weight: normal;
+	text-transform: capitalize;  
+    margin-top: 60px;
+	margin-bottom: 15px;
+}
+.contact_form p{
+	font-size: 1rem;
+	color: #545d69;
+	margin-bottom: 30px;
+}
+ul.social_icons_footer li{
+	display: inline-block;
+	margin-right: 5px;	
+}
+ul.social_icons_footer{
+	display: inline-block;
+	margin-top: 180px;
+	margin-bottom: 40px;
+	margin-right: 80px;
+}
+.contact_second{
+    font-size: 1rem;
+	color: rgb(150, 159, 171);
+	margin-right: 80px;       
+}
+.contact_sales_department{    
+    font-size: 1rem;
+	color: rgb(150, 159, 171);
+}
+a.via_mail{
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 1rem;
+}
+.bottom{
+	background-color: rgb(35, 54, 79);
+    height: 130px;
+	padding: 80px 137px 40px 137px;
+}
+ul.bottom_menu li{
+    margin-bottom: 8px;
+    display: inline-block;
+	margin-right: 50px;
+}
+ul.bottom_menu a{
+	font-weight: bold;
+	font-size: 0.9rem;
+	text-decoration: none;
+	color: rgb(150, 159, 171);
+	text-transform: uppercase;
+}
+.bottom_last{
+    margin-top: 60px;
+	color: rgb(150, 159, 171);
+	display: flex;
+    flex-flow: row wrap;
+	justify-content: center;
+    align-items: flex-end;
+}
+.bottom_left_last{
+    margin-bottom: 5px;
+    margin-right: 50px;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+}
+.privacy_policy{
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	flex-grow: 1;
+}
+.tecco_logo{
+	color: rgb(110, 116, 125);
+	font-size: 1.8rem;
+	font-weight: bold;
+	letter-spacing: 0.25rem;
+}
+    
+
+@media (max-width : 500px){
+	/*поменять margin если надо подогнать к футеру и к навигации*/
+.wrapper{
+	justify-content: center;
+	height: 4100px;/*высчитать высоту*/
+	margin: 40px auto 20px auto;
+}
+.regatta{
+	height: 195px;
+}
+*{		
+    font-size: 80%;
+}
+.main_social p{
+	display: none;
+}
+.main_news {
+	display: none;	
+}
+.regatta_day{
+	margin-left: 15px;
+  	margin-top: -95px;
+}
+.about_header H2{
+	padding: 20px 15px 20px 15px;	
+}
+	/*поменять высоту чтобы подогнать */
+.about_text{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.contact_form{
+	padding: 15px 15px 0 15px;
+}
+H2.contact_manager{
+	font-size: 1.5rem;
+	margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact_form p{
+	display: none;
+}
+ul.social_icons_footer{
+	display: none;
+}
+.contact_second{
+	display: none;
+}
+.contact_sales_department{
+	display: none;
+}
+.bottom{
+	padding: 15px;
+}
+.bottom_last{
+	margin-top: 30px;
+	flex-flow: column wrap;
+	align-items: center;
+}
+}
